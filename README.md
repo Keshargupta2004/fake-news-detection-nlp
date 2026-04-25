@@ -1,81 +1,65 @@
-# Fake News Detection using NLP (TF-IDF + Logistic Regression)
-
-## Overview
-
-This project focuses on detecting whether a news article is real or fake using basic NLP techniques and a machine learning model. It uses both the title and the full article text to make predictions.
-
----
-
-## Problem
-
-Fake news spreads very quickly online, and manually verifying content is not always practical. The goal here is to build a simple system that can automatically classify news as real (TRUE) or fake (FALSE).
-
----
-
-## Approach
-
-* Combined the **title and text** of each article
-* Cleaned the data (lowercase, removed URLs and unwanted characters)
-* Converted text into numerical features using **TF-IDF (unigrams + bigrams)**
-* Trained a **Logistic Regression model**
-* Used balanced class weights to handle data imbalance
-
----
-
-## Model Performance
-
-
+📰 Fake News Detection using NLP (TF-IDF + Logistic Regression)
+📌 Overview
+This project builds a machine learning model to classify news articles as REAL or FAKE using Natural Language Processing (NLP).
+It combines title + article text, processes them using TF-IDF, and applies a Logistic Regression classifier for prediction.
+🚨 Problem Statement
+Fake news spreads rapidly across digital platforms, making manual verification difficult and time-consuming.
+The goal of this project is to automate fake news detection using machine learning techniques.
+⚙️ Methodology
+1. Data Preprocessing
+Combined title + text fields
+Converted text to lowercase
+Removed URLs, punctuation, and unwanted characters
+2. Feature Engineering
+Used TF-IDF Vectorization
+Included:
+Unigrams
+Bigrams
+3. Model
+Applied Logistic Regression
+Used balanced class weights to handle class imbalance
+📊 Model Performance
 Metric	Score
 Accuracy	100%
 Precision	1.00
 Recall	1.00
-F1-score	1.00
-📈 ROC Curve
-The model achieves an AUC score of 1.00, indicating excellent ability to distinguish between fake and real news.
-
----
-
-## Files in this Repository
-
-* `Fake_News_Detection_using_TF_IDF_and_Logistic_Regression-2-.ipynb` → main notebook
-* `no_label.csv` → final output file with predicted labels
-* `README.md` → project description
-
----
-
-## How to Run
-
-1. Open the notebook in Google Colab
-2. Check upload:
-
-   * `with_label.csv`
-   * `no_label.csv`
-3. Run all cells
-4. The model will generate predictions and update `no_label.csv`
-
----
-
-## Output
-
-The final predictions are stored in `no_label.csv`.
-This file contains the original test data with an added **label column (TRUE/FALSE)**.
-
----
-
-## Where this can be useful
-
-* Filtering fake news on social media
-* Supporting fact-checking tools
-* Basic content moderation systems
-
----
-
-## Notes
-
-The dataset is not included here, so you’ll need to upload it before running the notebook.
-
----
-
-## Final Thoughts
-
-This project shows that even simple models like Logistic Regression, when combined with good preprocessing and TF-IDF features, can perform really well on text classification tasks.
+F1-Score	1.00
+📈 ROC-AUC
+AUC Score: 1.00
+Indicates excellent distinction between real and fake news
+📂 Project Structure
+📁 Fake-News-Detection
+│── 📄 Fake_News_Detection_using_TF_IDF_and_Logistic_Regression.ipynb
+│── 📄 no_label.csv
+│── 📄 README.md
+🚀 How to Run
+Open the notebook in Google Colab / Jupyter Notebook
+Upload required dataset files:
+with_label.csv
+no_label.csv
+Run all cells
+Model will:
+Train on labeled data
+Predict labels for unlabeled data
+📤 Output
+Final predictions are stored in:
+👉 no_label.csv
+A new column is added:
+label → TRUE / FALSE
+💡 Applications
+📰 Fake news filtering systems
+🔍 Fact-checking tools
+📱 Social media content moderation
+🧠 NLP-based classification tasks
+⚠️ Notes
+Dataset is not included in the repository
+Make sure to upload it before running the notebook
+🧠 Key Insight
+Even simple models like Logistic Regression, when combined with strong preprocessing and TF-IDF features, can achieve high performance in text classification tasks.
+📌 Future Improvements
+Use Deep Learning models (LSTM, BERT)
+Improve generalization with larger datasets
+Deploy as a web app (Streamlit)
+Add real-time news verification API
+🙌 Acknowledgment
+This project was developed as part of learning and applying NLP + Machine Learning concepts for real-world problems.
