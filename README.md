@@ -24,22 +24,20 @@ Fake news spreads very quickly online, and manually verifying content is not alw
 
 ## Model Performance
 
-* Train-test split: 80-20
-* Evaluation metric: Accuracy
 
-**Validation Accuracy: ~99%**
-
-Classification Report
-Precision = 0.99
-Recall = 0.99
-F1-score = 0.99
-Accuracy ≈ 0.99
+Metric	Score
+Accuracy	100%
+Precision	1.00
+Recall	1.00
+F1-score	1.00
+📈 ROC Curve
+The model achieves an AUC score of 1.00, indicating excellent ability to distinguish between fake and real news.
 
 ---
 
 ## Files in this Repository
 
-* `Fake_News_Detection_using_TF_IDF_and_Logistic_Regression-2.ipynb` → main notebook
+* `Fake_News_Detection_using_TF_IDF_and_Logistic_Regression-2-.ipynb` → main notebook
 * `no_label.csv` → final output file with predicted labels
 * `README.md` → project description
 
