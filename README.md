@@ -62,7 +62,7 @@ Fake-News-Detection/
 
 ##  How to Run
 
-1. Open the notebook in **Google Colab / Jupyter Notebook**
+1. Open the notebook in **Google Colab**
 2. Upload required dataset files:
    - `with_label.csv`
    - `no_label.csv`
