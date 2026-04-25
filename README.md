@@ -50,8 +50,11 @@ The goal of this project is to **automate fake news detection** using machine le
 
 ##  Project Structure
 Fake-News-Detection/
+
 │── Fake_News_Detection_using_TF_IDF_and_Logistic_Regression.ipynb
+
 │── no_label.csv
+
 │── README.md
 
 
