@@ -29,6 +29,12 @@ Fake news spreads very quickly online, and manually verifying content is not alw
 
 **Validation Accuracy: ~99%**
 
+Classification Report
+Precision = 0.99
+Recall = 0.99
+F1-score = 0.99
+Accuracy ≈ 0.99
+
 ---
 
 ## Files in this Repository
