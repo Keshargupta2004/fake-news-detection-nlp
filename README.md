@@ -42,7 +42,7 @@ Fake news spreads very quickly online, and manually verifying content is not alw
 ## How to Run
 
 1. Open the notebook in Google Colab
-2. Upload:
+2. Check upload:
 
    * `with_label.csv`
    * `no_label.csv`
