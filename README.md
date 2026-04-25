@@ -33,7 +33,7 @@ Fake news spreads very quickly online, and manually verifying content is not alw
 
 ## Files in this Repository
 
-* `Fake_News_Detection_using_TF_IDF_and_Logistic_Regression.ipynb` → main notebook
+* `Fake_News_Detection_using_TF_IDF_and_Logistic_Regression-2.ipynb` → main notebook
 * `no_label.csv` → final output file with predicted labels
 * `README.md` → project description
 
