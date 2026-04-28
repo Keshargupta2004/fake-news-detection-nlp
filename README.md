@@ -57,7 +57,7 @@ Fake-News-Detection/
 
 │── README.md
 
-
+Train-Test Split: 80-20
 ---
 
 ##  How to Run
